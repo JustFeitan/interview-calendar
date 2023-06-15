@@ -9,6 +9,7 @@ export const useCalendarNavigation = () => {
     let currentYear = currentDate.getFullYear();
     let currentMonth = currentDate.getMonth();
     let currentDay = currentDate.getDate();
+
     const daysInMonth = getDaysInMonth(currentMonth, currentYear);
     const weekArray = getCurrentWeek(currentYear, currentMonth, currentDay);
 

@@ -1,7 +1,6 @@
-import React, {FC, JSX, ReactNode} from 'react';
-import {CalendarEvent} from "../../../models/CalendarEvent";
+import React, {FC, JSX} from 'react';
 import {arrayFrom} from "../../../helpers/arrayFrom";
-import {StyledEventCell, CalendarEventTable} from "../styles";
+import {CalendarEventTable, StyledEventCell} from "../styles";
 
 interface CalendarEventTableProps {
     renderItem: (cell: number) => JSX.Element | null;
